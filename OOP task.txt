@@ -1,0 +1,18 @@
+Create a class “Person”, which will keep the following properties:
+• Name
+• Surname
+• Age
+and also have a “toString” method, which will return, you guessed it right, a String representation of a person (i.e. “Ivanov Ivan 23”).
+
+Then create a class “Phonebook”, which will keep an array of Persons and have an ability (methods) to sout all the Persons from an array in any (chosen by user) order:
+• Sorted by name
+• Sorted by surname
+• Sorted by age
+
+Don’t forget to make a static variable, which will represent an amount of people added to a phonebook. Sout methods should use Person’s “toString()” method.
+Size of an array inside of “Phonebook” class is 25, all the Persons are added from “Main” class manually, using “add()” method (which you, of course, should write inside of “Phonebook” class).
+––––––––––––––––––––––––––––––––––––––––––
+
+If you manage to write a program, described above, you may add the following functionality to your “Phonebook” class:
+•”remove()” method
+	finds a person by name, deletes him and then moves all the Persons to 	his right to the left, so there’s no empty cells in the middle
